@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Microsoft HK GPS"
 title_separator          : "-"
 subtitle                 : "Azure OpenAI Demo Center"
-url: "https://httpsmmistakes.github.io"
+url: "https://mshk-gps-openai-demo.github.io/"
 
 # Build settings
 theme: minimal-mistakes-jekyll
