@@ -1,0 +1,11 @@
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale                   : "en-US"
+title                    : "Microsoft HK GPS"
+title_separator          : "-"
+subtitle                 : "Azure OpenAI Demo Center"
+url: "https://httpsmmistakes.github.io"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
