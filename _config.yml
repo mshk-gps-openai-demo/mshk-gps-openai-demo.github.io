@@ -3,7 +3,8 @@ locale                   : "en-US"
 title                    : "Microsoft HK GPS"
 title_separator          : "-"
 subtitle                 : "Azure OpenAI Demo Center"
-url: "https://mshk-gps-openai-demo.github.io/"
+url                      : "https://mshk-gps-openai-demo.github.io/"
+logo                     : "/assets/image/logo.png"
 
 # Build settings
 theme: minimal-mistakes-jekyll
