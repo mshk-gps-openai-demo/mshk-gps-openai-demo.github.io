@@ -53,17 +53,23 @@ feature_row:
     btn_label: "View Demo"
     btn_class: "btn--primary"
     url: "https://sqlchatteo.azurewebsites.net/"  
-  - image_path: assets/image/3.png
-    alt: "Microsoft Teams integrated Chat Bot"
-    title: "Microsoft Teams integrated Chat Bot"
-    excerpt: "__Guide:__ Chat Bot integrated with Web or Microsoft Teams<br>
-              __Technology:__ ChatGPT+Azure App Service+Teams<br><br>
-              You can access [Source Code](https://github.com/microsoft/gps-csa-tech-stack/tree/main/Create-A-ChatGPT-Bot-APP-and-Deploy-To-Azure-APP-Service-or-Teams-APP) to deploy and customize your own application"
-    btn_label: "View Demo"
-    btn_class: "btn--primary"
-    url: "https://chatgpt2022.azurewebsites.net/"
+
+usefullinkes: 
+  - title: Useful Links
+feature_row_article:
+  - title: "Teams"
+    excerpt: "[Deploy your ChatGPT based model securely using Microsoft Teams, Power Virtual Agent and Azure OpenAI](https://devblogs.microsoft.com/microsoft365dev/deploy-your-chatgpt-based-model-securely-using-microsoft-teams-power-virtual-agent-and-azure-openai/)<br>
+              [Integrate Azure Open AI in Teams Channel via Logic App](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/integrate-azure-open-ai-in-teams-channel-via-logic-app/ba-p/3776048)<br>
+              [Create a conversational bot in Microsoft Teams using OpenAI - YouTube](https://www.youtube.com/watch?v=PtdOdYax84A)"
+
+  - title: "Power Platform"
+    excerpt: "[OpenAIWorkshop: workshop materials to build intelligent solutions on Open AI](https://github.com/microsoft/OpenAIWorkshop)"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="usefullinkes" type="center" %}
+
+{% include feature_row id="feature_row_article" type="Left" %}
