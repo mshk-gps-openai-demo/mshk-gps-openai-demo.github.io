@@ -8,5 +8,6 @@ logo                     : "/assets/image/logo.png"
 
 # Build settings
 theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
+
+atom_feed:
+  hide: true
