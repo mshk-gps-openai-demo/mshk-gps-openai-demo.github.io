@@ -4,12 +4,12 @@ layout: single
 toc: true
 ---
 
-![Enterprise Knowledge Base](assets/image/1.png)
+![Enterprise Knowledge Base](assets/image/azure-search-openai-demo.png)
 
 [View Demo](https://app-backend-44yscpoyifz6q.azurewebsites.net/){: .btn .btn--primary}
 <br>
-__Guide:__ Using chat to search enterprise knowledge base from pre-provided PDF documents<br>
-__Technology:__ OpenAI ChatGPT+Azure Cognitive Search<br>
+__Description:__ Using chat to search enterprise knowledge base from pre-provided PDF documents<br>
+__Technology:__ using [azd cli](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview) to management the deployment from infrastructure to data preparation and applicaiton deployment<br><br>
 __Installing Prerequisites with Chocolatey__: [video](https://youtu.be/yDxaXcSMP9o)
 
 You can access [Source Code](https://aka.ms/entGPTSearch) to deploy and customize your own application

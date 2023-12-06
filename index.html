@@ -1,6 +1,7 @@
 ---
 title: Azure OpenAI Demo Center
 layout: splash
+date: 2023-09-25T9:20:02-05:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,62 +9,81 @@ header:
 intro: 
   - excerpt: For outcome demostration only, not for production use, there is no SLA
 feature_row:
-  - image_path: assets/image/1.png
+  - image_path: assets/image/sample-app-aoai-chatGPT.png
+    alt: "Sample Chat App with AOAI"
+    title: "Sample Chat App with AOAI"
+    excerpt: "__Description:__ Sample which Azure OpenAI Studio is using. Support deploying from Azure OpenAI Studio, direct deploy to Azure with ARM template, azd cli or <br>
+              __Technology:__ OpenAI embedding+Azure Form Recognizer, using OpenAI Embedding for intelligent search and summarization<br><br>
+              __GitHub Repo:__ [https://github.com/microsoft/sample-app-aoai-chatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT)"
+    btn_label: "View Demo"
+    btn_class: "btn--primary"
+    url: "https://sampleappaoaichat1.azurewebsites.net/"
+  - image_path: assets/image/azure-search-openai-demo.png
     alt: "Enterprise Knowledge Base"
     title: "Enterprise Knowledge Base"
-    excerpt: "__Guide:__ Using chat to search enterprise knowledge base from pre-provided PDF documents<br>
-              __Technology:__ OpenAI ChatGPT+Azure Cognitive Search<br><br>
-              You can access [Source Code](http://aka.ms/entGPTSearch) to deploy and customize your own application"
+    excerpt: "__Description:__ Using chat to search enterprise knowledge base from pre-provided PDF documents<br>
+              __Technology:__ using azd cli to management the deployment from infrastructure to data preparation and applicaiton deployment<br><br>
+              __GitHub Repo:__ [http://aka.ms/entGPTSearch](http://aka.ms/entGPTSearch)"
     btn_label: "More Details"
     btn_class: "btn--primary"
     url: /azure-search-openai-demo.html
-  - image_path: assets/image/2.png
-    alt: "Azure OpenAI Embeddings QnA"
-    title: "Azure OpenAI Embeddings QnA"
-    excerpt: "__Guide:__ Use _Add Document_ to upload documents or pictures, then search with question<br>
-              __Technology:__ OpenAI embedding+Azure Form Recognizer, using OpenAI Embedding for intelligent search and summarization<br><br>
-              You can access [Source Code](https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna) to deploy and customize your own application"
+  - image_path: assets/image/chat-with-your-data-solution-accelerator.png
+    alt: "Chat with your data solution accelerator"
+    title: "Chat with your data solution accelerator"
+    excerpt: "__Description:__ Using chat to search enterprise knowledge base from pre-provided PDF documents<br>
+              __Technology:__ using azd cli to management the deployment from infrastructure to data preparation and applicaiton deployment<br><br>
+              __GitHub Repo:__ [https://aka.ms/ChatWithYourDataSolutionAccelerator](https://aka.ms/ChatWithYourDataSolutionAccelerator)<br><br>
+              
+              Admin Portal: [https://chat-with-data-website-admin.azurewebsites.net](https://chat-with-data-website-admin.azurewebsites.net)"
     btn_label: "View Demo"
     btn_class: "btn--primary"
-    url: "https://wm-site.azurewebsites.net/"
+    url: "https://chat-with-data-website.azurewebsites.net"
   - image_path: assets/image/5.png
-    alt: "Chatbot with Session History"
-    title: "Chatbot with Session History"
-    excerpt: "__Guide:__ Similar experience as ChatGPT on openai.com<br>
-              __Technology:__ Azure Cosmos DB + Azure OpenAI ChatGPT<br><br>
-              You can access [Source Code](https://github.com/Azure-Samples/cosmosdb-chatgpt) to deploy and customize your own application"
-    btn_label: "View Demo"
+    alt: "Vector Search AI Assisstant"
+    title: "Vector Search AI Assisstant"
+    excerpt: "__Guide:__  The solution shows hows to generate vectors on data stored in Azure Cosmos DB using Azure OpenAI Service, then shows how to implment vector search capabilities using a variety of different vector capable databases available from Azure Cosmos DB and Azure.<br>
+              __Technology:__ Azure OpenAI, Cosmos DB, Azure AI Search, Azure Container App<br><br>
+              __GitHub Repo:__ [https://github.com/Azure/Vector-Search-AI-Assistant](https://github.com/Azure/Vector-Search-AI-Assistant)<br><br>
+              __Hackathon__: [https://github.com/Azure/Build-Modern-AI-Apps-Hackathon](https://github.com/Azure/Build-Modern-AI-Apps-Hackathon)"
+    btn_label: "Click Through Demo"
     btn_class: "btn--primary"
-    url: "https://bpyxwl265qkue-web.azurewebsites.net/"
+    url: "https://aka.ms/CopilotDemoApp"
   - image_path: assets/image/conversation_knowledge_mining.png
     alt: "Call Recording Transcript Knowledge Mining"
     title: "Call Recording Transcript Knowledge Mining"
     excerpt: "__Guide:__ Customer Service conversation insight on hotel and travel booking conversations,  Search for a city name to get started (e.g. seattle, milan, etc...)<br>
               __Technology:__ Azure Speech Service, Azure Cognitive Search, Azure OpenAI, Azure App Service<br><br>
-              You can access [Source Code](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services) to deploy and customize your own application"
+              __GitHub Repo:__ [https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services)"
     btn_label: "View Demo"
     btn_class: "btn--primary"
     url: "https://conversational-knowledge-mining.azurewebsites.net/"
-  - image_path: assets/image/6.png
-    alt: "ChatGPT with Relational Databse"
-    title: "ChatGPT with Relational Databse"
-    excerpt: "__Guide:__ Click + on the left to creat connection to default MySQL database or your own databse, then query with natual language<br>
-              __Technology:__ ChatGPT generates SQL script based on relational database structure<br><br>
-              You can access [Source Code](https://github.com/richardeee/AzureSQLChatGPTDemo) to deploy and customize your own application"
+
+  - image_path: assets/image/reddogparmacy.png
+    alt: "Red Dog Pharmacy"
+    title: "Red Dog Pharmacy"
+    excerpt: "__Guide:__  A retail scenario that depicts a typical event-driven microservices architecture<br>
+              __Technology:__ Azure AI Services, Azure OpenAI, Hugging Face<br><br>
+              __GitHub Repo:__ [https://github.com/Azure/reddog-solutions](https://github.com/Azure/reddog-solutions)"
     btn_label: "View Demo"
     btn_class: "btn--primary"
-    url: "https://sqlchatteo.azurewebsites.net/"  
+    url: "https://reddog-solutions.com/home/"
+    
+  - image_path: assets/image/Real-Time-Transactions.png
+    alt: "Transaction/Order processing"
+    title: "Transaction/Order processing"
+    excerpt: "__Guide:__  The scenario centers around a payments and transactions solution. Members having accounts, each account with corresponding balances, overdraft limits and credit/debit transactions.<br>
+              __Technology:__ Azure Cosmos DB, AKS, Azure OpenAI Services, Static Web App<br><br>
+              __GitHub Repo:__ [https://github.com/Azure/Real-time-Payment-Transaction-Processing-at-Scale](https://github.com/Azure/Real-time-Payment-Transaction-Processing-at-Scale)<br><br>
+              __Hackathon__: [https://github.com/Azure/Real-Time-Transactions-Hackathon](https://github.com/Azure/Real-Time-Transactions-Hackathon)"
 
-usefullinkes: 
-  - title: Useful Links
-feature_row_article:
-  - title: "Teams"
-    excerpt: "[Deploy your ChatGPT based model securely using Microsoft Teams, Power Virtual Agent and Azure OpenAI](https://devblogs.microsoft.com/microsoft365dev/deploy-your-chatgpt-based-model-securely-using-microsoft-teams-power-virtual-agent-and-azure-openai/)<br>
-              [Integrate Azure Open AI in Teams Channel via Logic App](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/integrate-azure-open-ai-in-teams-channel-via-logic-app/ba-p/3776048)<br>
-              [Create a conversational bot in Microsoft Teams using OpenAI - YouTube](https://www.youtube.com/watch?v=PtdOdYax84A)"
+  - image_path: assets/image/Real-time-Payment-Transaction-Processing-at-Scale.png
+    alt: "Medical Claim Handling Bot"
+    title: "Medical Claim Handling Bot"
+    excerpt: "__Guide:__  The scenario centers around a medical claims management solution. Members having coverage and making claims, providers who deliver services to the member and payers who provide the insurance coverage that pays providers for services to the members.<br>
+              __Technology:__ Cosmos DB, AKS, Azure OpenAI, Azure Synapse Analytics, Event Hubs, Static Web App<br><br>
+              __GitHub Repo:__ [https://github.com/Azure/Medical-Claims-Transaction-Processing-at-scale](https://github.com/Azure/Medical-Claims-Transaction-Processing-at-scale)<br><br>
+              __Hackathon__: [https://github.com/Azure/Medical-Claims-Processing-Hackathon](https://github.com/Azure/Medical-Claims-Processing-Hackathon)"
 
-  - title: "Power Platform"
-    excerpt: "[OpenAIWorkshop: workshop materials to build intelligent solutions on Open AI](https://github.com/microsoft/OpenAIWorkshop)"
 ---
 
 {% include feature_row id="intro" type="center" %}
